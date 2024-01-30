@@ -3,9 +3,9 @@
     "version": "0.1.0",
     "description": "Effortless Typescript error handling",
     "license": "MIT",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
-    "exports": "./dist/index.js",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "exports": "./index.js",
     "scripts": {
         "build": "./scripts/build.sh",
         "buildTarball": "rm -rf *.tgz && pnpm run build && cd dist && npm pack && cd .. && mv dist/zeturn-*.tgz zeturn.tgz",
